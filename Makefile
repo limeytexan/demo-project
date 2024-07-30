@@ -66,7 +66,9 @@ install-pybin: $(BINDIR)/test_flox_hello_world.py
 install: install-include install-lib install-pylib install-bin install-pybin
 
 clean:
-	rm -f src/*.o libflox.so main flox_hello_world_py.so
+	rm -f src/*.o libflox.so main flox_hello_world_py.so \
+	  result-* *.targets.png *.targets.dot \
+	  headlines src/headlines.json
 
 FORCE:
 
@@ -75,15 +77,26 @@ FORCE:
 # The following targets relate to the "headline" server that reads
 # a private API key to connect to a thing.
 
-API_KEY := $(file <newsapi.org.api.key)
-
 src/headlines.json: FORCE
-	curl -s "https://newsapi.org/v2/top-headlines?country=us&apiKey=$(API_KEY)" > $@
+	curl -s "https://newsapi.org/v2/top-headlines?country=us&apiKey=$$(cat newsapi.org.api.key)" > $@
 
 $(INCLUDEDIR)/headlines.json: src/headlines.json
+	mkdir -p $(@D)
 	-rm -f $@
 	cp $< $@
 
 headlines: src/headlines.sh src/headlines.json
 	cp $< $@
 	chmod +x $@
+
+HEADLINESDIR ?= $(INCLUDEDIR)
+
+$(BINDIR)/headlines: src/headlines.sh
+	mkdir -p $(@D)
+	cp $< $@
+	sed -i 's%src/headlines.json%$(HEADLINESDIR)/headlines.json%' $@
+	chmod +x $@
+
+install-headlines: $(INCLUDEDIR)/headlines.json $(BINDIR)/headlines
+install-headlines-bin: $(BINDIR)/headlines
+install-headlines-json: $(INCLUDEDIR)/headlines.json

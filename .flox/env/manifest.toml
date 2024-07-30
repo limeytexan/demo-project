@@ -10,6 +10,7 @@ version = 1
 [install]
 gcc.pkg-path = "gcc"
 python3.pkg-path = "python3"
+curl.pkg-path = "curl"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^18.4.2", pkg-path = "nodejs_18" }
 
@@ -51,3 +52,25 @@ python3.pkg-path = "python3"
 systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 # Uncomment to disable CUDA detection.
 # cuda-detection = false
+
+[build]
+
+# demo-project.buildCache = true
+# demo-project.sandbox = true
+# demo-project.command = '''
+#   make
+#   make install PREFIX=$out
+# '''
+
+# headlines.sandbox = false
+# headlines-deps.command = '''
+#   make install-headlines-json PREFIX=$out
+# '''
+
+# headlines.sandbox = true
+# headlines.command = '''
+#   set -x
+#   mkdir -p $out
+#   # make install-headlines PREFIX=$out
+#   make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
+# '''
