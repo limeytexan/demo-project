@@ -72,4 +72,18 @@ FORCE:
 
 .PHONY: all install install-include install-lib install-pylib install-bin install-pybin clean FORCE
 
+# The following targets relate to the "headline" server that reads
+# a private API key to connect to a thing.
 
+API_KEY := $(file <newsapi.org.api.key)
+
+src/headlines.json: FORCE
+	curl -s "https://newsapi.org/v2/top-headlines?country=us&apiKey=$(API_KEY)" > $@
+
+$(INCLUDEDIR)/headlines.json: src/headlines.json
+	-rm -f $@
+	cp $< $@
+
+headlines: src/headlines.sh src/headlines.json
+	cp $< $@
+	chmod +x $@
