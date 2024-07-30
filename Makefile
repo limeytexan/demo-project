@@ -7,39 +7,69 @@ BINDIR = $(PREFIX)/bin
 all: libflox.so main flox_hello_world_py.so
 
 libflox.so: src/flox_hello_world.o
-	@echo Delaying build of $@ by 2 seconds && sleep 2
+	@s=2 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -shared -o $@ $^
 
 src/flox_hello_world.o: src/flox_hello_world.c
-	@echo Delaying build of $@ by 1 second && sleep 1
+	@s=1 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -fPIC -c -o $@ $^
 
 main: src/main.o libflox.so
-	@echo Delaying build of $@ by 4 seconds && sleep 4
+	@s=4 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -o $@ $< -L. -lflox
 
 src/main.o: src/main.c src/flox_hello_world.h
-	@echo Delaying build of $@ by 3 seconds && sleep 3
+	@s=3 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -c -o $@ $<
 
 flox_hello_world_py.so: src/flox_hello_world_py.o libflox.so
-	@echo Delaying build of $@ by 6 seconds && sleep 6
+	@s=6 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -shared -o $@ $^ $(shell python3-config --includes) -L. -lflox
 
 src/flox_hello_world_py.o: src/flox_hello_world_py.c
-	@echo Delaying build of $@ by 5 seconds && sleep 5
+	@s=5 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -fPIC -c -o $@ $< $(shell python3-config --includes)
 
-install: all
-	mkdir -p $(LIBDIR) $(INCLUDEDIR) $(PYTHONDIR) $(BINDIR)
-	cp libflox.so $(LIBDIR)
-	cp src/flox_hello_world.h $(INCLUDEDIR)
-	cp flox_hello_world_py.so $(PYTHONDIR)
-	cp main $(BINDIR)
-	cp python/test_flox_hello_world.py $(BINDIR)
-	sed -i 's%/usr/local%$(PREFIX)%g' $(BINDIR)/test_flox_hello_world.py
+# Installation targets
+
+$(LIBDIR)/libflox.so: libflox.so FORCE
+	mkdir -p $(@D)
+	-rm -f $@
+	cp $< $@
+
+$(INCLUDEDIR)/flox_hello_world.h: src/flox_hello_world.h
+	mkdir -p $(@D)
+	-rm -f $@
+	cp $< $@
+
+$(PYTHONDIR)/flox_hello_world_py.so: src/flox_hello_world_py.o $(LIBDIR)/libflox.so
+	mkdir -p $(@D)
+	-rm -f $@
+	$(CC) -shared -o $@ $^ $(shell python3-config --includes) -L$(LIBDIR) -lflox
+
+$(BINDIR)/main: src/main.o $(LIBDIR)/libflox.so
+	mkdir -p $(@D)
+	-rm -f $@
+	$(CC) -o $@ $< -L$(LIBDIR) -lflox
+
+$(BINDIR)/test_flox_hello_world.py: python/test_flox_hello_world.py
+	mkdir -p $(@D)
+	-rm -f $@
+	cp $< $@
+	sed -i 's%/usr/local%$(PREFIX)%g' $@
+
+install-include: $(INCLUDEDIR)/flox_hello_world.h
+install-lib: $(LIBDIR)/libflox.so
+install-bin: $(BINDIR)/main
+install-pylib: $(PYTHONDIR)/flox_hello_world_py.so
+install-pybin: $(BINDIR)/test_flox_hello_world.py
+install: install-include install-lib install-pylib install-bin install-pybin
 
 clean:
 	rm -f src/*.o libflox.so main flox_hello_world_py.so
 
-.PHONY: all install clean
+FORCE:
+
+.PHONY: all install install-include install-lib install-pylib install-bin install-pybin clean FORCE
+
+
