@@ -70,9 +70,12 @@ clean:
 	  result-* *.targets.png *.targets.dot \
 	  headlines src/headlines.json
 
+democlean: clean
+	nix-collect-garbage
+
 FORCE:
 
-.PHONY: all install install-include install-lib install-pylib install-bin install-pybin clean FORCE
+.PHONY: all install install-include install-lib install-pylib install-bin install-pybin clean democlean FORCE
 
 # The following targets relate to the "headline" server that reads
 # a private API key to connect to a thing.
