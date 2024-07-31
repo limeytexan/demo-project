@@ -69,7 +69,7 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 
 # headlines.sandbox = true
 # headlines.command = '''
-#   set -x
+#   set -x # Remind ourselves which version we're using
 #   mkdir -p $out
 #   # make install-headlines PREFIX=$out
 #   make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
