@@ -1,0 +1,420 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "curl": {
+        "pkg-path": "curl"
+      },
+      "gcc": {
+        "pkg-path": "gcc"
+      },
+      "python3": {
+        "pkg-path": "python3"
+      }
+    },
+    "vars": {},
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    },
+    "services": {},
+    "build": {}
+  },
+  "packages": [
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/ynsqkmwscqz9ch6dnl0vvf5dgb66kyx7-curl-8.8.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "curl-8.8.0",
+      "pname": "curl",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.8.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/3a0wpz3jlr9k56znj1728djwzv0n4k5r-curl-8.8.0-bin",
+        "dev": "/nix/store/l6h5s1l6y5x2gdsr2c0zd6ck901k72gm-curl-8.8.0-dev",
+        "devdoc": "/nix/store/93kh2pnzwcq7bygnjs5i56ah4d7n0rbq-curl-8.8.0-devdoc",
+        "man": "/nix/store/iq2i19aspbbvbys7xi91v4b00xb6nylm-curl-8.8.0-man",
+        "out": "/nix/store/9v7hc5hm591539hlka47dj8ibjnbv0r2-curl-8.8.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/cbdq1pjvm1xw2bd9m73l26yjnld1hr45-curl-8.8.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "curl-8.8.0",
+      "pname": "curl",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.8.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/vw8il31201b00fwijj5dclrinpi371vb-curl-8.8.0-bin",
+        "debug": "/nix/store/860q6cd8kzfm00rhs8k66znb2p6vygv6-curl-8.8.0-debug",
+        "dev": "/nix/store/w7kxbfcb66d53jsnww0v7mmxx600pqvw-curl-8.8.0-dev",
+        "devdoc": "/nix/store/7j1sym3l7wwldacpbfl7ni2i7mrvdlsj-curl-8.8.0-devdoc",
+        "man": "/nix/store/7pbf28nmnbcdmaray4sr6l3gd28dyjyr-curl-8.8.0-man",
+        "out": "/nix/store/lalbnj7315s73fxn9wpk3i2dg0pin6vw-curl-8.8.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/6r63xivhh46afzagg68ycx2941ci9b5j-curl-8.8.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "curl-8.8.0",
+      "pname": "curl",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.8.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/2241jrfkxw58c8857qk0ylryibxg1590-curl-8.8.0-bin",
+        "dev": "/nix/store/zxf340drqdn90a8sx8gdgx3ayf66s181-curl-8.8.0-dev",
+        "devdoc": "/nix/store/0jinz0m7gb0zr95gbqbqw6zcv9s51626-curl-8.8.0-devdoc",
+        "man": "/nix/store/0rzdyiw6dkklx6jmwvzx9jxysvzjikd8-curl-8.8.0-man",
+        "out": "/nix/store/ng16vcrzjd0p7lvlfyj6l94vwimykf1s-curl-8.8.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "curl",
+      "broken": false,
+      "derivation": "/nix/store/mwn39fsjg9rk0z89cay72mrbwnfqgxzd-curl-8.8.0.drv",
+      "description": "Command line tool for transferring files with URL syntax",
+      "install_id": "curl",
+      "license": "curl",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "curl-8.8.0",
+      "pname": "curl",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "8.8.0",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/g37vd707w8bdp919rdnwwld27wsmhqff-curl-8.8.0-bin",
+        "debug": "/nix/store/dvhapczz22wvp0s9ac69qqqm6l8v812z-curl-8.8.0-debug",
+        "dev": "/nix/store/k7dijz2bzra5m32cs1zf1kgpzxg08x90-curl-8.8.0-dev",
+        "devdoc": "/nix/store/8ir4cggnbannsvch97vhzlcm66ffn462-curl-8.8.0-devdoc",
+        "man": "/nix/store/b4dcsaqi4rq412266xjgsdxhlz3j9j1l-curl-8.8.0-man",
+        "out": "/nix/store/y6w7agm3aw5p96q7vsgzivba0dqq3rd0-curl-8.8.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/gcj3zydk6wpv3bac5w7igxh4kw7w56c4-gcc-wrapper-13.3.0.drv",
+      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "gcc-wrapper-13.3.0",
+      "pname": "gcc",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-13.3.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/yc3m521y2rkrj2bkdrpzjhk2ig8q7dgd-gcc-wrapper-13.3.0-info",
+        "man": "/nix/store/691razqrlycqlrxzrf5ywjzy7dnjd4s2-gcc-wrapper-13.3.0-man",
+        "out": "/nix/store/azz8d7kdfbf46jhpvnnlcp6ll4d9iskk-gcc-wrapper-13.3.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/m8gjaqzl4m8yfraszibj2rss0r3w0whb-gcc-wrapper-13.3.0.drv",
+      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "gcc-wrapper-13.3.0",
+      "pname": "gcc",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-13.3.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/0vyjcsn2q00dhiyaxizmfnvlwp4pnxyp-gcc-wrapper-13.3.0-info",
+        "man": "/nix/store/7lld2vi5d231cskh69gakb1qkhsp0bvd-gcc-wrapper-13.3.0-man",
+        "out": "/nix/store/b6xym3wria2kza3bm2ip7fpk8g2shgd5-gcc-wrapper-13.3.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/zz41fvp1alplh8nkknv66x4207da76an-gcc-wrapper-13.3.0.drv",
+      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "gcc-wrapper-13.3.0",
+      "pname": "gcc",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-13.3.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/rd0xzay0z1y2f935v7x97hm2h7a8wzb4-gcc-wrapper-13.3.0-info",
+        "man": "/nix/store/xjllbiq5xm6frywfbmbi56kwp6vlapg2-gcc-wrapper-13.3.0-man",
+        "out": "/nix/store/s2sqf9kpixr6c5nxd88fhcwb88bwyvzi-gcc-wrapper-13.3.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "gcc",
+      "broken": false,
+      "derivation": "/nix/store/andlgvwhg8c8f42ijg15zgcdqp7girgq-gcc-wrapper-13.3.0.drv",
+      "description": "GNU Compiler Collection, version 13.3.0 (wrapper script)",
+      "install_id": "gcc",
+      "license": "GPL-3.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "gcc-wrapper-13.3.0",
+      "pname": "gcc",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "wrapper-13.3.0",
+      "outputs_to_install": [
+        "out",
+        "man"
+      ],
+      "outputs": {
+        "info": "/nix/store/i12chsrhxb8xg1i4yg9x2nqqm38waczn-gcc-wrapper-13.3.0-info",
+        "man": "/nix/store/h92vrnc79lghs6i3833h74y88nw38iq5-gcc-wrapper-13.3.0-man",
+        "out": "/nix/store/62zpnw69ylcfhcpy1di8152zlzmbls91-gcc-wrapper-13.3.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/mhc5h81w16fnibsw9qdy75dxq8aavw3a-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/1sgajx2r3bkriyxzwsahhva63p08pmac-python3-3.12.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/psrcdr7glp1rxwd1586q75nhljpdbzby-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/rshmxwibmxqvf94w3ld05yqnsijrmk4m-python3-3.12.4-debug",
+        "out": "/nix/store/jms4z7lzzwnv6gv3y0795365haicmh8m-python3-3.12.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/bs2ygcjxw88nq9wakc1rzbxjjqiirknx-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/dh1i1387ibdzw0ala5rkl3s3ylf8i8pa-python3-3.12.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "python3",
+      "broken": false,
+      "derivation": "/nix/store/zakf7g0dmhlx4qbvv8h157d9d0k2r591-python3-3.12.4.drv",
+      "description": "High-level dynamically-typed programming language",
+      "install_id": "python3",
+      "license": "Python-2.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "name": "python3-3.12.4",
+      "pname": "python3",
+      "rev": "52ec9ac3b12395ad677e8b62106f0b98c1f8569d",
+      "rev_count": 659698,
+      "rev_date": "2024-07-28T16:52:11Z",
+      "scrape_date": "2024-07-31T07:08:11Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.12.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/myg0p2vf2cj2jsb663qswnygvgn54kbc-python3-3.12.4-debug",
+        "out": "/nix/store/l014xp1qxdl6gim3zc0jv3mpxhbp346s-python3-3.12.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
