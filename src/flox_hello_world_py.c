@@ -1,5 +1,5 @@
 #include <Python.h>
-#include "flox_hello_world.h"
+#include "flox-hello-world.h"
 
 static PyObject* py_flox_hello_world(PyObject* self, PyObject* args) {
     flox_hello_world();

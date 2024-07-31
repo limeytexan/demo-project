@@ -1,4 +1,4 @@
-#include "flox_hello_world.h"
+#include "flox-hello-world.h"
 #include <stdio.h>
 
 void flox_hello_world() {
