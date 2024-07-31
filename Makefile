@@ -7,7 +7,7 @@ BINDIR = $(PREFIX)/bin
 all: libflox.so flox-hello flox_hello_world_py.so
 
 libflox.so: src/flox-hello-world.o
-	@s=2 && echo Delaying build of $@ by $$s seconds && sleep $$s
+	@s=1 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -shared -o $@ $^
 
 src/flox-hello-world.o: src/flox-hello-world.c
@@ -23,7 +23,7 @@ src/flox-hello.o: src/flox-hello.c src/flox-hello-world.h
 	$(CC) -c -o $@ $<
 
 flox_hello_world_py.so: src/flox_hello_world_py.o libflox.so
-	@s=2 && echo Delaying build of $@ by $$s seconds && sleep $$s
+	@s=1 && echo Delaying build of $@ by $$s seconds && sleep $$s
 	$(CC) -shared -o $@ $^ $(shell python3-config --includes) -L. -lflox
 
 src/flox_hello_world_py.o: src/flox_hello_world_py.c
