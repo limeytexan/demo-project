@@ -16,7 +16,7 @@ src/flox_hello_world.o: src/flox_hello_world.c
 
 main: src/main.o libflox.so
 	@s=4 && echo Delaying build of $@ by $$s seconds && sleep $$s
-	$(CC) -o $@ $< -L. -lflox
+	$(CC) -o $@ $< -L$(PWD) -lflox
 
 src/main.o: src/main.c src/flox_hello_world.h
 	@s=3 && echo Delaying build of $@ by $$s seconds && sleep $$s
@@ -99,4 +99,6 @@ $(BINDIR)/headlines: src/headlines.sh
 
 install-headlines: $(INCLUDEDIR)/headlines.json $(BINDIR)/headlines
 install-headlines-bin: $(BINDIR)/headlines
-install-headlines-json: $(INCLUDEDIR)/headlines.json
+install-headlines-dev: $(INCLUDEDIR)/headlines.json
+
+.PHONY: install-headlines install-headlines-bin install-headlines-dev
