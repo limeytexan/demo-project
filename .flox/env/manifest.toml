@@ -20,14 +20,14 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 
 # headlines.sandbox = false
 # headlines-deps.command = '''
-#   make install-headlines-json PREFIX=$out
+#   make install-headlines-dev PREFIX=$out
 # '''
 
 # headlines.sandbox = true
 # headlines.command = '''
 #   set -x # Remind ourselves which version we're using
-#   mkdir -p $out
-#   # make install-headlines PREFIX=$out
-#   make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
+#   make install-headlines PREFIX=$out
+#   # make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
+#   # $out/bin/headlines # TEST
 # '''
 
