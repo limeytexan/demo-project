@@ -1,7 +1,8 @@
 PREFIX ?= /usr/local
 LIBDIR = $(PREFIX)/lib
 INCLUDEDIR = $(PREFIX)/include
-PYTHONDIR = $(PREFIX)/lib/python3.8/site-packages
+PYTHONVERSION := $(shell python3-config --includes | awk -F/ '{print $$NF}')
+PYTHONDIR = $(PREFIX)/lib/$(PYTHONVERSION)/site-packages
 BINDIR = $(PREFIX)/bin
 
 all: libflox.so flox-hello flox_hello_world_py.so
@@ -24,7 +25,7 @@ src/flox-hello.o: src/flox-hello.c src/flox-hello-world.h
 
 flox_hello_world_py.so: src/flox_hello_world_py.o libflox.so
 	@s=1 && echo Delaying build of $@ by $$s seconds && sleep $$s
-	$(CC) -shared -o $@ $^ $(shell python3-config --includes) -L. -lflox
+	$(CC) -shared -o $@ $^ -L. -L$(shell python3-config --exec-prefix)/lib -lflox -l$(PYTHONVERSION)
 
 src/flox_hello_world_py.o: src/flox_hello_world_py.c
 	@s=1 && echo Delaying build of $@ by $$s seconds && sleep $$s
@@ -45,7 +46,7 @@ $(INCLUDEDIR)/flox-hello-world.h: src/flox-hello-world.h
 $(PYTHONDIR)/flox_hello_world_py.so: src/flox_hello_world_py.o $(LIBDIR)/libflox.so
 	mkdir -p $(@D)
 	-rm -f $@
-	$(CC) -shared -o $@ $^ $(shell python3-config --includes) -L$(LIBDIR) -lflox
+	$(CC) -shared -o $@ $^ -L$(LIBDIR) -L$(shell python3-config --exec-prefix)/lib -lflox -l$(PYTHONVERSION)
 
 $(BINDIR)/flox-hello: src/flox-hello.o $(LIBDIR)/libflox.so
 	mkdir -p $(@D)
@@ -56,7 +57,7 @@ $(BINDIR)/test_flox_hello_world.py: python/test_flox_hello_world.py
 	mkdir -p $(@D)
 	-rm -f $@
 	cp $< $@
-	sed -i 's%/usr/local%$(PREFIX)%g' $@
+	sed -i 's%@@__PYTHON_SITE_PACKAGES__@@%$(PYTHONDIR)%g' $@
 
 install-include: $(INCLUDEDIR)/flox-hello-world.h
 install-lib: $(LIBDIR)/libflox.so
