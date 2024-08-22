@@ -4,7 +4,7 @@ import sys
 import os
 
 # Set PYTHONPATH to include the installed directory
-sys.path.append('/usr/local/lib/python3.8/site-packages')
+sys.path.append('@@__PYTHON_SITE_PACKAGES__@@')
 
 import flox_hello_world_py
 
