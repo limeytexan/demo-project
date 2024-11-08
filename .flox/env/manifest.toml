@@ -1,9 +1,10 @@
 version = 1
 
 [install]
-gcc.pkg-path = "gcc"
+gnumake.pkg-path = "gnumake"
 python3.pkg-path = "python3"
 curl.pkg-path = "curl"
+gcc11.pkg-path = "gcc11"
 # jq.pkg-path = "jq"
 
 [options]
@@ -13,10 +14,10 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 
 # demo-project.buildCache = true
 # demo-project.sandbox = true
-# demo-project.command = '''
-#   make
-#   make install PREFIX=$out
-# '''
+demo-project.command = '''
+  make
+  make install PREFIX=$out
+'''
 
 # headlines.sandbox = false
 # headlines-deps.command = '''
