@@ -1,10 +1,10 @@
 version = 1
 
 [install]
+# curl.pkg-path = "curl"
+gcc.pkg-path = "gcc11"
 gnumake.pkg-path = "gnumake"
 python3.pkg-path = "python3"
-curl.pkg-path = "curl"
-gcc11.pkg-path = "gcc11"
 # jq.pkg-path = "jq"
 
 [options]
@@ -12,23 +12,21 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 
 [build]
 
-# demo-project.buildCache = true
-# demo-project.sandbox = true
+# demo-project.sandbox = "pure"
 demo-project.command = '''
   make
   make install PREFIX=$out
 '''
 
-# headlines.sandbox = false
-# headlines-deps.command = '''
-#   make install-headlines-dev PREFIX=$out
-# '''
+headlines.sandbox = "pure"
+headlines.command = '''
+  set -x # Remind ourselves which version we're using
+  make install-headlines PREFIX=$out
+  # make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
+  # $out/bin/headlines # TEST
+'''
 
-# headlines.sandbox = true
-# headlines.command = '''
-#   set -x # Remind ourselves which version we're using
-#   make install-headlines PREFIX=$out
-#   # make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
-#   # $out/bin/headlines # TEST
-# '''
-
+#headlines-deps.sandbox = "off"
+#headlines-deps.command = '''
+#  make install-headlines-dev PREFIX=$out
+#'''

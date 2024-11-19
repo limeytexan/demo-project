@@ -82,7 +82,8 @@ FORCE:
 # a private API key to connect to a thing.
 
 src/headlines.json: FORCE
-	curl -s "https://newsapi.org/v2/top-headlines?country=us&apiKey=$$(cat newsapi.org.api.key)" > $@
+	set -o pipefail && _key="$$(cat newsapi.org.api.key)" && \
+	  curl -s "https://newsapi.org/v2/top-headlines?country=us&apiKey=$$_key" > $@
 
 $(INCLUDEDIR)/headlines.json: src/headlines.json
 	mkdir -p $(@D)
