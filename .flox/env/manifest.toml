@@ -5,28 +5,30 @@ version = 1
 gcc.pkg-path = "gcc11"
 gnumake.pkg-path = "gnumake"
 python3.pkg-path = "python3"
-# jq.pkg-path = "jq"
 
 [options]
 systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 
 [build]
 
-# demo-project.sandbox = "pure"
+demo-project.sandbox = "pure"
+demo-project.runtime-packages = [ "python3" ]
 demo-project.command = '''
   make
   make install PREFIX=$out
 '''
+# demo-project.version = "1.2.3"
+# demo-project.version = "file:VERSION"
+demo-project.version = "command:echo 3.4.5"
 
-headlines.sandbox = "pure"
+# headlines.sandbox = "pure"
 headlines.command = '''
-  set -x # Remind ourselves which version we're using
-  make install-headlines PREFIX=$out
-  # make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
-  # $out/bin/headlines # TEST
+  # make install-headlines PREFIX=$out
+  make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
+  $out/bin/headlines # TEST
 '''
 
-#headlines-deps.sandbox = "off"
-#headlines-deps.command = '''
-#  make install-headlines-dev PREFIX=$out
-#'''
+headlines-deps.sandbox = "off"
+headlines-deps.command = '''
+  make install-headlines-dev PREFIX=$out
+'''
