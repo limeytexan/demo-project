@@ -28,7 +28,7 @@
           "python3"
         ],
         "sandbox": "pure",
-        "version": "command:echo 3.4.5"
+        "version": "1.2.3"
       },
       "headlines": {
         "command": "  # make install-headlines PREFIX=$out\n  make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include\n  $out/bin/headlines # TEST\n"
