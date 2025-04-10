@@ -11,6 +11,7 @@ systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
 
 [build]
 
+demo-project.description = "A package description"
 demo-project.sandbox = "pure"
 demo-project.runtime-packages = [ "python3" ]
 demo-project.command = '''
