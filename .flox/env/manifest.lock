@@ -10,7 +10,7 @@
         "pkg-path": "gnumake"
       },
       "python3": {
-        "pkg-path": "python314"
+        "pkg-path": "python3"
       }
     },
     "options": {
@@ -44,17 +44,17 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/0ax51168glbycw1x2dj1jcgad2j4kzry-gcc-wrapper-11.5.0.drv",
+      "derivation": "/nix/store/y3fln5ima3zsdnqcw7m48cvii1x457s9-gcc-wrapper-11.5.0.drv",
       "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gcc-wrapper-11.5.0",
       "pname": "gcc11",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:12:06.068352Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:11:25.028943Z",
       "stabilities": [
         "unstable"
       ],
@@ -76,17 +76,17 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/1gnqswrc90jbxqgx0ssgkdwx760knayw-gcc-wrapper-11.5.0.drv",
+      "derivation": "/nix/store/aanmxfjlm7vk8a6dcwgg5p4x14qdv1zm-gcc-wrapper-11.5.0.drv",
       "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gcc-wrapper-11.5.0",
       "pname": "gcc11",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:30:44.178376Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:28:03.808202Z",
       "stabilities": [
         "unstable"
       ],
@@ -108,17 +108,17 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/fjanngdcq3wri42jrlri4mdl799b23mi-gcc-wrapper-11.5.0.drv",
+      "derivation": "/nix/store/n86sfaddl52l9cq70w7vjy3hxyy0qa1k-gcc-wrapper-11.5.0.drv",
       "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gcc-wrapper-11.5.0",
       "pname": "gcc11",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:47:14.940448Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:43:36.123070Z",
       "stabilities": [
         "unstable"
       ],
@@ -140,17 +140,17 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/8s3vrm1darrcmflsmz4mvccbjrm82irm-gcc-wrapper-11.5.0.drv",
+      "derivation": "/nix/store/wljs41c39f6lx8nlmfn2az9h4djlm0ii-gcc-wrapper-11.5.0.drv",
       "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gcc-wrapper-11.5.0",
       "pname": "gcc11",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T02:06:55.592725Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T02:01:52.747850Z",
       "stabilities": [
         "unstable"
       ],
@@ -172,17 +172,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/897qgbbiqskfickkdbv2k1cm6i8hx5w7-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/z0vyvvm3cqlwx4wxm7vs3y2n0yvb13l5-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:12:06.199578Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:11:25.160303Z",
       "stabilities": [
         "unstable"
       ],
@@ -204,17 +204,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/1w8mkkppb9qx6y489fr6baf6sjcwz25f-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/d3wschhaqb4bwzzy11wsr7a1xxhv5krs-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:30:44.644770Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:28:04.274163Z",
       "stabilities": [
         "unstable"
       ],
@@ -237,17 +237,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/90dva6ghca1npg5qjp3l78mkl26nm8yd-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/4843xfb5xlx9nwjm9l74ggkg9df50308-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:47:15.102493Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:43:36.286158Z",
       "stabilities": [
         "unstable"
       ],
@@ -269,17 +269,17 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/smmbdypz6jpj72190zwm0d65fs5hp34y-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/r2xhnjg5n3mnly8b7l91jjfza4qdrsjh-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T02:06:56.125683Z",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T02:01:53.276004Z",
       "stabilities": [
         "unstable"
       ],
@@ -300,118 +300,118 @@
       "priority": 5
     },
     {
-      "attr_path": "python314",
+      "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/jn84izi5jvlbwjdw1vazjlvkj4vqxixj-python3-3.14.0a6.drv",
+      "derivation": "/nix/store/bdsil73qdi3anlff462vyflfyz9hl3ny-python3-3.12.9.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
-      "name": "python3-3.14.0a6",
-      "pname": "python314",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:12:33.204328Z",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "name": "python3-3.12.9",
+      "pname": "python3",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:11:33.513306Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "python3-3.14.0a6",
+      "version": "3.12.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/lnq548kbjr2qkyddwwlanmjihj15mhln-python3-3.14.0a6"
+        "out": "/nix/store/3p3agnh4792y8bgjp0s8xx5bym1ahpks-python3-3.12.9"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "python314",
+      "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/bk8gy421p9r3vjsnp3sbkwqf0mifk17b-python3-3.14.0a6.drv",
+      "derivation": "/nix/store/bqiirv87dk88ipl1g0wn49a501dgyarn-python3-3.12.9.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
-      "name": "python3-3.14.0a6",
-      "pname": "python314",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:31:32.107856Z",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "name": "python3-3.12.9",
+      "pname": "python3",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:28:24.422267Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "python3-3.14.0a6",
+      "version": "3.12.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/rsjyzj6l0wvw970zy4rhvbsywg6s44bw-python3-3.14.0a6-debug",
-        "out": "/nix/store/g61j9ws03l841jyb2wxin8ab0dqh5viv-python3-3.14.0a6"
+        "debug": "/nix/store/p2ym34g9y2w9k3w2pgbj2akn7b5l6xlh-python3-3.12.9-debug",
+        "out": "/nix/store/cxhrrsf7spcgdkrxmlbfzc1bh46rzf7w-python3-3.12.9"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "python314",
+      "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/kwp6qb3rf76x69ma9bpz0765p64w47kz-python3-3.14.0a6.drv",
+      "derivation": "/nix/store/k4a6ydp4ij2vzpk6zfgffx5yy9d58253-python3-3.12.9.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
-      "name": "python3-3.14.0a6",
-      "pname": "python314",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T01:47:42.143732Z",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "name": "python3-3.12.9",
+      "pname": "python3",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T01:43:44.797204Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "python3-3.14.0a6",
+      "version": "3.12.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/rizp608d0gvm8ws8kllw18215x2sapz3-python3-3.14.0a6"
+        "out": "/nix/store/8fw6a4is5mkpmr9vd80inz63qdi130m3-python3-3.12.9"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
       "priority": 5
     },
     {
-      "attr_path": "python314",
+      "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/48w8wlm2msbgna22zxwl1k4j1givl6yi-python3-3.14.0a6.drv",
+      "derivation": "/nix/store/xw08jjh95zyqrmanqwkdcyd97rg4wsxp-python3-3.12.9.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=42a1c966be226125b48c384171c44c651c236c22",
-      "name": "python3-3.14.0a6",
-      "pname": "python314",
-      "rev": "42a1c966be226125b48c384171c44c651c236c22",
-      "rev_count": 779115,
-      "rev_date": "2025-04-05T04:29:29Z",
-      "scrape_date": "2025-04-07T02:07:48.282934Z",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "name": "python3-3.12.9",
+      "pname": "python3",
+      "rev": "2631b0b7abcea6e640ce31cd78ea58910d31e650",
+      "rev_count": 782401,
+      "rev_date": "2025-04-12T13:19:24Z",
+      "scrape_date": "2025-04-14T02:02:16.073720Z",
       "stabilities": [
         "unstable"
       ],
       "unfree": false,
-      "version": "python3-3.14.0a6",
+      "version": "3.12.9",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/ijj0zf6zxz6pv1yq6xdbpwkjr0mwnpzh-python3-3.14.0a6-debug",
-        "out": "/nix/store/l0a73vak6nvn9mpas20z5r4k6gwk7dgj-python3-3.14.0a6"
+        "debug": "/nix/store/1kjknndig10774mkf6b2b95kn17q4rm5-python3-3.12.9-debug",
+        "out": "/nix/store/f2krmq3iv5nibcvn4rw7nrnrciqprdkh-python3-3.12.9"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
