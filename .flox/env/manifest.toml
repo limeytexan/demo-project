@@ -5,6 +5,7 @@ version = 1
 gcc.pkg-path = "gcc11"
 gnumake.pkg-path = "gnumake"
 python3.pkg-path = "python3"
+gnused.pkg-path = "gnused"
 
 [options]
 systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
