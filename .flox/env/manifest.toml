@@ -18,9 +18,9 @@ demo-project.command = '''
   make
   make install PREFIX=$out
 '''
-demo-project.version = "1.2.3"
-# demo-project.version = "file:VERSION"
-# demo-project.version = "command:echo 3.4.5"
+# demo-project.version = "1.2.3"
+demo-project.version.file = "VERSION"
+# demo-project.version.command = "echo 3.4.5"
 
 # headlines.sandbox = "pure"
 headlines.command = '''

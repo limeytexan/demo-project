@@ -28,7 +28,9 @@
           "python3"
         ],
         "sandbox": "pure",
-        "version": "1.2.3",
+        "version": {
+          "file": "VERSION"
+        },
         "description": "A package description"
       },
       "headlines": {
