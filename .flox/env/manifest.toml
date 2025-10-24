@@ -5,6 +5,7 @@ version = 1
 gcc.pkg-path = "gcc11"
 gnumake.pkg-path = "gnumake"
 python3.pkg-path = "python3"
+jq.pkg-path = "jq"
 
 [options]
 systems = ["aarch64-darwin", "aarch64-linux", "x86_64-darwin", "x86_64-linux"]
@@ -22,7 +23,7 @@ demo-project.command = '''
 demo-project.version.file = "VERSION"
 # demo-project.version.command = "echo 3.4.5"
 
-# headlines.sandbox = "pure"
+headlines.sandbox = "pure"
 headlines.command = '''
   # make install-headlines PREFIX=$out
   make install-headlines-bin PREFIX=$out HEADLINESDIR=${headlines-deps}/include
