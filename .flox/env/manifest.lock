@@ -50,31 +50,32 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/pb0w28vr6y0p60sd0qmv3jfhvcjyi4zp-gcc-wrapper-11.5.0.drv",
-      "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
+      "derivation": "/nix/store/9451zhh4s8hg9qq3qglgbk7z5f3y6dwm-gcc-wrapper-11.4.0.drv",
+      "description": "GNU Compiler Collection, version 11.4.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "gcc-wrapper-11.5.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "gcc-wrapper-11.4.0",
       "pname": "gcc11",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:14:30.906874Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "11.5.0",
+      "version": "11.4.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/6kkas4az6j4z6bjqmz05q4a28b9nhc7l-gcc-wrapper-11.5.0-info",
-        "man": "/nix/store/1pdcaywnys4wycsgwr48iz0w2y9kl7c8-gcc-wrapper-11.5.0-man",
-        "out": "/nix/store/64r4s30493i81q8ax6h0wj7qrp96mi12-gcc-wrapper-11.5.0"
+        "info": "/nix/store/46zb505wfzc0bn2az4w4m3r657qggf1y-gcc-wrapper-11.4.0-info",
+        "man": "/nix/store/nsw39rcdjxh9lm57fslfdgijpl2af473-gcc-wrapper-11.4.0-man",
+        "out": "/nix/store/h5r5h9hgnnqbzxskymmm9ibjd2kphizd-gcc-wrapper-11.4.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -83,31 +84,32 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/k7kr686rpmh7dzsd7yb5y47ppigbmhj4-gcc-wrapper-11.5.0.drv",
-      "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
+      "derivation": "/nix/store/xf8qsg7r7qslynpkh1kq5mb6nwvl7b2c-gcc-wrapper-11.4.0.drv",
+      "description": "GNU Compiler Collection, version 11.4.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "gcc-wrapper-11.5.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "gcc-wrapper-11.4.0",
       "pname": "gcc11",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:34:51.283762Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "11.5.0",
+      "version": "11.4.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/xyn52bvbg1qbx2bsvd28farn8bqa3c60-gcc-wrapper-11.5.0-info",
-        "man": "/nix/store/iyh672hs55aw11p8ffmy0h9yl4zsd8hc-gcc-wrapper-11.5.0-man",
-        "out": "/nix/store/78rhr8zfpq4qm7y89dfxcrdqpqyq6ll4-gcc-wrapper-11.5.0"
+        "info": "/nix/store/05ij3qgnasbjspamypnp7b86sy6zya74-gcc-wrapper-11.4.0-info",
+        "man": "/nix/store/zmkwvpa574blx8kwvrgmrzgyn26vj6sm-gcc-wrapper-11.4.0-man",
+        "out": "/nix/store/qyids96n1bx9a5gx5vycafhyih7pr755-gcc-wrapper-11.4.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -116,31 +118,32 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/lznpa7yhlbnsxb55rc8i8fhfzfnw1qxs-gcc-wrapper-11.5.0.drv",
-      "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
+      "derivation": "/nix/store/ny5icr7bcf7sz6bjyss8f6g30rq64yhg-gcc-wrapper-11.4.0.drv",
+      "description": "GNU Compiler Collection, version 11.4.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "gcc-wrapper-11.5.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "gcc-wrapper-11.4.0",
       "pname": "gcc11",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:53:49.178624Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "11.5.0",
+      "version": "11.4.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/s7r4s2w9wcz633fwnaqajx3c5z0rgi2p-gcc-wrapper-11.5.0-info",
-        "man": "/nix/store/9p0x0lhbbl9kgzdh91mh4dr7bddqy7rp-gcc-wrapper-11.5.0-man",
-        "out": "/nix/store/gg8rip7m6ffqv7cdpvag3xik7kb77q8g-gcc-wrapper-11.5.0"
+        "info": "/nix/store/g25w97i1i82w58y9v1wxbhsi3i8wi0c0-gcc-wrapper-11.4.0-info",
+        "man": "/nix/store/r7wkqfkkj5n3hca7ak39b34fpiji7dfw-gcc-wrapper-11.4.0-man",
+        "out": "/nix/store/qlkvl4p3w2jb17knpv7l3pvzi92v3mc1-gcc-wrapper-11.4.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -149,31 +152,32 @@
     {
       "attr_path": "gcc11",
       "broken": false,
-      "derivation": "/nix/store/1ccmggn841gykln03c57vq99fd29s9r3-gcc-wrapper-11.5.0.drv",
-      "description": "GNU Compiler Collection, version 11.5.0 (wrapper script)",
+      "derivation": "/nix/store/p2h3spm85mf3nmgbvm6njx9aj1rpm0bl-gcc-wrapper-11.4.0.drv",
+      "description": "GNU Compiler Collection, version 11.4.0 (wrapper script)",
       "install_id": "gcc",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "gcc-wrapper-11.5.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "gcc-wrapper-11.4.0",
       "pname": "gcc11",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T06:15:25.769409Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "11.5.0",
+      "version": "11.4.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/czsz8k8681qnlllfmjarssdixq04kww8-gcc-wrapper-11.5.0-info",
-        "man": "/nix/store/fvjhfzypm55yybiqsrh35s3qnnqnlkpq-gcc-wrapper-11.5.0-man",
-        "out": "/nix/store/rnl79y5mii1ypi1vk8s1s33qlwp6cjsc-gcc-wrapper-11.5.0"
+        "info": "/nix/store/s37jv1adn858zck0vzszq9s3r8wvdgvq-gcc-wrapper-11.4.0-info",
+        "man": "/nix/store/i2cz5fab647wa14sf08678gc6dmq71kr-gcc-wrapper-11.4.0-man",
+        "out": "/nix/store/jhslhfdjr6na6zy1rpkwhrazr5nbqh89-gcc-wrapper-11.4.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -182,20 +186,21 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/60nhk5npja6szd4xm89zfmhf645bvyi4-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/nhd6z9fyk629nx2jc3gsa9fk68w1amj5-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:14:31.048014Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
@@ -204,9 +209,9 @@
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/39c179hnw4w0y9pikjxm9zvrsq9wxs6q-gnumake-4.4.1-info",
-        "man": "/nix/store/dk7vh49s82kl68y3pv4b5glmz31xh255-gnumake-4.4.1-man",
-        "out": "/nix/store/r7m07s173xa5nlii49999m0666i4sh27-gnumake-4.4.1"
+        "info": "/nix/store/qs7gmbv88h9v6achca5950a33zmniabc-gnumake-4.4.1-info",
+        "man": "/nix/store/ajpqp6akrszzdvxbb40fq6czikidc2vb-gnumake-4.4.1-man",
+        "out": "/nix/store/c4301v1sjrp1779626h44pl91jbnpn5r-gnumake-4.4.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -215,20 +220,21 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/k2iilkq7739pfi8zl1xg0v0ylb01whd4-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/75iygvrvhlfym6yglpj1bgfwbq3p6qsv-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:34:51.782094Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
@@ -237,10 +243,10 @@
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/5n3plbn2w3my72ji83f3ffg1rykcj09m-gnumake-4.4.1-debug",
-        "info": "/nix/store/yahicgkv1xprlqv6nlgzdyfivqmghpbi-gnumake-4.4.1-info",
-        "man": "/nix/store/8p351d8fiirsppiz0mmjanp4k40k8fb5-gnumake-4.4.1-man",
-        "out": "/nix/store/1yr3fp9z2a6bnfxyrg9r9a50cn0fgs1c-gnumake-4.4.1"
+        "debug": "/nix/store/aqc0xdx9bfvqj38915xm97zj9k9h6dgf-gnumake-4.4.1-debug",
+        "info": "/nix/store/fkb17v32yraw4jfl6jph7gsikhg5528z-gnumake-4.4.1-info",
+        "man": "/nix/store/72jlip07iff04ldvi8pbidla8k4y6cbl-gnumake-4.4.1-man",
+        "out": "/nix/store/zmgsn6q40mhyydf1irxb1j39h60cfazh-gnumake-4.4.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -249,20 +255,21 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/2zbz7220kfc9q6fqag14habfqnzf8hay-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/0i0c6d4axnyn5ggvvzarfwaijxg6cniz-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:53:49.354793Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
@@ -271,9 +278,9 @@
         "out"
       ],
       "outputs": {
-        "info": "/nix/store/27x32j1ild76cv8aw3v89x0vzkz57g9b-gnumake-4.4.1-info",
-        "man": "/nix/store/fhf8z0n0qdrzim6jckj0kib749skibp7-gnumake-4.4.1-man",
-        "out": "/nix/store/m9l6dyxvkzlawlsb56gmj40ahlvhyg02-gnumake-4.4.1"
+        "info": "/nix/store/44kyl5f1z3qji74bjfj69anqnhhia5q0-gnumake-4.4.1-info",
+        "man": "/nix/store/xmif4yq2xqy37qjhgzz43sni8nrickh6-gnumake-4.4.1-man",
+        "out": "/nix/store/6mq2psv6b3kraaf1axdw2h1ci28nw15l-gnumake-4.4.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -282,20 +289,21 @@
     {
       "attr_path": "gnumake",
       "broken": false,
-      "derivation": "/nix/store/4ag52d8v19ncbqgpj6h2zw0fqy6lfa4d-gnumake-4.4.1.drv",
+      "derivation": "/nix/store/vngdw7h72jg8qmyizx9s747hlh4j2z16-gnumake-4.4.1.drv",
       "description": "Tool to control the generation of non-source files from sources",
       "install_id": "gnumake",
       "license": "GPL-3.0-or-later",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
       "name": "gnumake-4.4.1",
       "pname": "gnumake",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T06:15:26.344186Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
       "version": "4.4.1",
@@ -304,10 +312,10 @@
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/6z5kdrm4iz98knwcf6bzkrrdnfc0y521-gnumake-4.4.1-debug",
-        "info": "/nix/store/qjwiip462nkv8dand7zql6np4plzk8rq-gnumake-4.4.1-info",
-        "man": "/nix/store/ylv36wr8356r4ff02nlw1h70cigx582h-gnumake-4.4.1-man",
-        "out": "/nix/store/20ljlr4fvln0pd2xcrhy6bm27bk1dnc7-gnumake-4.4.1"
+        "debug": "/nix/store/1rpvn74fg0vyp7k3r369qa6m0jqhsgiz-gnumake-4.4.1-debug",
+        "info": "/nix/store/561k9y7cqfyf58j9x1dblw0c18625xyd-gnumake-4.4.1-info",
+        "man": "/nix/store/qrbxn3bh9p4ivq5jx2fs6l34k0inqpz2-gnumake-4.4.1-man",
+        "out": "/nix/store/y1p3w7pj0f7n77kl33wmz5gml6qcqfjd-gnumake-4.4.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -316,33 +324,35 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/jxsfifxplh0p1bzqvada82zbph9fbkjs-jq-1.8.0.drv",
+      "derivation": "/nix/store/bc4f3sn1c2avilbrn5drwflavy2dqjkf-jq-1.7.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "jq-1.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "jq-1.7.1",
       "pname": "jq",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:14:31.509700Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "1.8.0",
+      "version": "1.7.1",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/04gj0cpc6mv0pkyz114p23fq65zx8mbx-jq-1.8.0-bin",
-        "dev": "/nix/store/glkhwajjprqny359z1awxll8vnsa66lf-jq-1.8.0-dev",
-        "doc": "/nix/store/yygyqari7g4kz9j0yyyl2lq6v2bg3dw2-jq-1.8.0-doc",
-        "man": "/nix/store/7zdrvbyc5pgq9by1wzpn0q28iqsd0lx7-jq-1.8.0-man",
-        "out": "/nix/store/78wqqi0zdlrgadz3nmd909axh5182k7v-jq-1.8.0"
+        "bin": "/nix/store/5dsicv93i37c4rqr08r1zdj8dwpa63nj-jq-1.7.1-bin",
+        "dev": "/nix/store/6ad6jxsm7478f0x8rq8rrdc4han7s80j-jq-1.7.1-dev",
+        "doc": "/nix/store/bll94fwkzpm5sklfwj70848amgrjkrn0-jq-1.7.1-doc",
+        "lib": "/nix/store/wisxfshfsm2cg4raffilv38cgiqrlw45-jq-1.7.1-lib",
+        "man": "/nix/store/jf3cf8rxhpc6l40sjcksarfk9nvnpmrw-jq-1.7.1-man",
+        "out": "/nix/store/5mzkysyi9h4bim5plq6d85zqiv3nb3bi-jq-1.7.1"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -351,33 +361,35 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/g7n19a9nf882h325lbcnkynnpdcpzv8i-jq-1.8.0.drv",
+      "derivation": "/nix/store/rixi4wxb2gi5dgnkgzanq9ms89ri4jnx-jq-1.7.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "jq-1.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "jq-1.7.1",
       "pname": "jq",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:34:53.140531Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "1.8.0",
+      "version": "1.7.1",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/k9mybm2b3yr0v9fsm8vi0319diai4flj-jq-1.8.0-bin",
-        "dev": "/nix/store/rzzhwmzryil6g7pl5i7jb4fs54nkkrm4-jq-1.8.0-dev",
-        "doc": "/nix/store/xjcyd1pjjzja918407x5hvsa6sa3k4mj-jq-1.8.0-doc",
-        "man": "/nix/store/v8lgx3i8v7kjqzgs8x75v0ysrlylfhg1-jq-1.8.0-man",
-        "out": "/nix/store/8p4cdklsb5kn1w4ycq9na07ja19j6d87-jq-1.8.0"
+        "bin": "/nix/store/9bm6a5hr2036bp03n7mvcj8qb7z6mcr0-jq-1.7.1-bin",
+        "dev": "/nix/store/h0v2snl3jji71maplpiyjnb4xblgf428-jq-1.7.1-dev",
+        "doc": "/nix/store/w74r4zi5cy74qmmzziq0vkp5lr0vg95i-jq-1.7.1-doc",
+        "lib": "/nix/store/gnansglnqy5s2yiy4p9nf07iid8y6hl1-jq-1.7.1-lib",
+        "man": "/nix/store/hqck6h5n2av24gvs8fbq566v03fcmw17-jq-1.7.1-man",
+        "out": "/nix/store/0sh7a753nby7r3849sz8gy4cbnkd45i4-jq-1.7.1"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -386,33 +398,35 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/as3kra9fv1p14n09llnhxzglh3lkjsm6-jq-1.8.0.drv",
+      "derivation": "/nix/store/0c1v7mxvcpf45vrycjylhgq2pbmmz25h-jq-1.7.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "jq-1.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "jq-1.7.1",
       "pname": "jq",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:53:49.833952Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "1.8.0",
+      "version": "1.7.1",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/4d5y298s33gi9vcvviq8xah06203395s-jq-1.8.0-bin",
-        "dev": "/nix/store/zsmngm14i76pv54z4n8sj7dcwy6x10kn-jq-1.8.0-dev",
-        "doc": "/nix/store/0122gf5v7922213mkjp3vlij53fkqvir-jq-1.8.0-doc",
-        "man": "/nix/store/drgz0ky78p3c6raccn7xsb5m9f91ba3x-jq-1.8.0-man",
-        "out": "/nix/store/akq414spg0yr5rdba7mbbvz8s945gmya-jq-1.8.0"
+        "bin": "/nix/store/bcyvwrb0hl85gckd2f3rfl1ih69r5pwz-jq-1.7.1-bin",
+        "dev": "/nix/store/q1bqzh7ngrskmdcswx5i9fvxnl24qiaq-jq-1.7.1-dev",
+        "doc": "/nix/store/mh4hdlh3qhbbq991rk5ab3903fai0nkc-jq-1.7.1-doc",
+        "lib": "/nix/store/8pw8540dyhqc5mbmd2bd7ah2lxaaa01j-jq-1.7.1-lib",
+        "man": "/nix/store/arsqld8fq5sg7lsy39g12xr1dim25afw-jq-1.7.1-man",
+        "out": "/nix/store/gbp8xd6x3cj7d1yd7cslnrfbjxvqzdls-jq-1.7.1"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -421,33 +435,35 @@
     {
       "attr_path": "jq",
       "broken": false,
-      "derivation": "/nix/store/wngak93q17smdrb1zix8gyzy4j5mjvi0-jq-1.8.0.drv",
+      "derivation": "/nix/store/vsrf8afyxg4z72h4mfasmx6w92qfxds3-jq-1.7.1.drv",
       "description": "Lightweight and flexible command-line JSON processor",
       "install_id": "jq",
       "license": "MIT",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "jq-1.8.0",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "jq-1.7.1",
       "pname": "jq",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T06:15:27.811735Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "1.8.0",
+      "version": "1.7.1",
       "outputs_to_install": [
         "bin",
         "man"
       ],
       "outputs": {
-        "bin": "/nix/store/2n9hfcfqdszxgsmi4qyqq6rv947dwwg9-jq-1.8.0-bin",
-        "dev": "/nix/store/dvy119mx8ab0yjxblaaippb2js6nbzkn-jq-1.8.0-dev",
-        "doc": "/nix/store/5qly4lwxrq5r3x472g2w35rz50b54a6n-jq-1.8.0-doc",
-        "man": "/nix/store/njrgxwqnifcyh3x0v18v83ig179zccx0-jq-1.8.0-man",
-        "out": "/nix/store/qqx05qwhhmbrviw3iskgaigjxhczqhvx-jq-1.8.0"
+        "bin": "/nix/store/axpqa3f5l63mc38h11x1gc5cykw8bn5i-jq-1.7.1-bin",
+        "dev": "/nix/store/nnawicd7asp8mn0gsp8j0gxd81y1jasr-jq-1.7.1-dev",
+        "doc": "/nix/store/7nx4qp08rd6f92iw377lzrvdhpzslrvy-jq-1.7.1-doc",
+        "lib": "/nix/store/133fxjd0mqf8x720c2a8cp9175ma0n9x-jq-1.7.1-lib",
+        "man": "/nix/store/wfmw87vqkz2xifc9sb0gvnad1l73qk6v-jq-1.7.1-man",
+        "out": "/nix/store/iw31k4crvrhmgykdxy0dyz632h2jhzkz-jq-1.7.1"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
@@ -456,28 +472,29 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/l3yrcw6mprh8gihyg9g7cbsj9lzh4cmg-python3-3.13.4.drv",
+      "derivation": "/nix/store/8if8hpl604n8w6qj33gka95qbsiv6r4r-python3-3.12.4.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "python3-3.13.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "python3-3.12.4",
       "pname": "python3",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:14:39.554347Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "3.13.4",
+      "version": "3.12.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/j1spz18w5a10r9nj4wpkyh0cx730rs4z-python3-3.13.4"
+        "out": "/nix/store/3swy1vadi125g0c1vxqp8ykdr749803j-python3-3.12.4"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -486,29 +503,30 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/b01sskbw6j34gyqvs3wqcq3gdzkpz7r8-python3-3.13.4.drv",
+      "derivation": "/nix/store/nwp16553ccgv4zdl8xyvlxxxjd4p5ckk-python3-3.12.4.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "python3-3.13.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "python3-3.12.4",
       "pname": "python3",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:35:11.615315Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "3.13.4",
+      "version": "3.12.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/6b7k5hh6j6jfb4zx4z9mba3ijk2fhhd2-python3-3.13.4-debug",
-        "out": "/nix/store/avgafrfq80hx92p98m60wh2khmnmxrzc-python3-3.13.4"
+        "debug": "/nix/store/19vjjqg7jbfblqapf63nm9ich1xdq9dx-python3-3.12.4-debug",
+        "out": "/nix/store/sz2facg15yq3ziqkidb1dkkglwzkkg8a-python3-3.12.4"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -517,28 +535,29 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/x6pl21i2q7jbv5rszclg4hscyd5b1n1b-python3-3.13.4.drv",
+      "derivation": "/nix/store/n2q9hqgsccw0rx57hfivh49qk618swsr-python3-3.12.4.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "python3-3.13.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "python3-3.12.4",
       "pname": "python3",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:53:58.037264Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "3.13.4",
+      "version": "3.12.4",
       "outputs_to_install": [
         "out"
       ],
       "outputs": {
-        "out": "/nix/store/il3s6rjh49l9ccg1nlqm93w67lcnfmqn-python3-3.13.4"
+        "out": "/nix/store/3y5wy1i9nq5293knm23mxsj5l6w41h2l-python3-3.12.4"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -547,31 +566,30 @@
     {
       "attr_path": "python3",
       "broken": false,
-      "derivation": "/nix/store/larsjhyzxl4vbkz6g621ka2d0z9krqcg-python3-3.13.4.drv",
+      "derivation": "/nix/store/281f9dj1jka9gjj55vsgs3hilw0la5iz-python3-3.12.4.drv",
       "description": "High-level dynamically-typed programming language",
       "install_id": "python3",
       "license": "Python-2.0",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "python3-3.13.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "name": "python3-3.12.4",
       "pname": "python3",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T06:15:49.279871Z",
+      "rev": "dc14ed91132ee3a26255d01d8fd0c1f5bff27b2f",
+      "rev_count": 656713,
+      "rev_date": "2024-07-23T13:58:26Z",
+      "scrape_date": "2024-07-29T13:10:31Z",
       "stabilities": [
-        "unstable",
-        "staging"
+        "stable",
+        "staging",
+        "unstable"
       ],
       "unfree": false,
-      "version": "3.13.4",
+      "version": "3.12.4",
       "outputs_to_install": [
-        "out",
-        "out",
         "out"
       ],
       "outputs": {
-        "debug": "/nix/store/5rzc9mjyfmqrvg270x0fa3d47lvvvhzd-python3-3.13.4-debug",
-        "out": "/nix/store/sd81bvmch7njdpwx3lkjslixcbj5mivz-python3-3.13.4"
+        "debug": "/nix/store/3x6jqv5yw212v8rlwql88cn94dginq32-python3-3.12.4-debug",
+        "out": "/nix/store/z7xxy35k7620hs6fn6la5fg2lgklv72l-python3-3.12.4"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
